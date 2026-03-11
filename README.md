@@ -23,8 +23,7 @@ The goal of this project is to showcase **core SQL skills used in real business 
 
 The roadmap below outlines the analytical workflow followed in this project.
 
-![Project Roadmap](docs/project-roadmap.png)
-
+![Project Roadmap](docs/Project%20Roadmap.png)
 ---
 
 # 🗂 Project Structure
