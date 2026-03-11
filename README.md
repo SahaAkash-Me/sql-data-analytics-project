@@ -1,123 +1,128 @@
 # 📊 SQL Data Analytics Project
 
-A comprehensive collection of SQL scripts used for **data exploration, analytics, and reporting**.
-This project demonstrates how SQL can be used to transform raw data into **actionable business insights**.
+![SQL](https://img.shields.io/badge/SQL-T--SQL-blue?style=flat-square\&logo=microsoftsqlserver)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![Tool](https://img.shields.io/badge/Tool-SSMS-red?style=flat-square)
 
-The repository includes practical SQL queries used for:
-
-* Data exploration
-* Business metrics calculation
-* Time-based trend analysis
-* Cumulative analytics
-* Data segmentation
-* Performance analysis
-
-This project is designed to simulate **real-world data analyst tasks** performed in business intelligence and analytics roles.
+> A structured SQL project focused on **data exploration, business metrics, trend analysis, and segmentation**, designed to simulate real-world **Data Analyst workflows in a Business Intelligence environment**.
 
 ---
 
-# 🗂️ Project Structure
+# 📌 Project Overview
 
-```
-sql-data-analytics-project
+This project demonstrates how **SQL can transform raw transactional data into actionable business insights**.
+
+The repository contains structured SQL scripts used to analyze a **retail sales dataset**, focusing on common analytical tasks performed by Data Analysts.
+
+The goal of this project is to showcase **core SQL skills used in real business analytics environments**, including data exploration, KPI generation, trend analysis, and product performance evaluation.
+
+---
+
+# 🗺 Project Roadmap
+
+The roadmap below outlines the analytical workflow followed in this project.
+
+![Project Roadmap](docs/project-roadmap.png)
+
+---
+
+# 🗂 Project Structure
+
+```id="t1glgy"
+sql-data-analytics-project/
 │
-├── datasets/                  # Raw datasets used for analysis
+├── docs/
+│   └── project-roadmap.png        # Visual project workflow
+│
+├── datasets/                      # Raw datasets used for analysis
+│
 ├── scripts/
-│   ├── database_exploration.sql
-│   ├── measures_and_metrics.sql
-│   ├── time_trend_analysis.sql
-│   ├── cumulative_analysis.sql
-│   ├── segmentation_analysis.sql
-│   └── product_performance.sql
+│   ├── database_exploration.sql   # Schema discovery & data profiling
+│   ├── measures_and_metrics.sql   # KPIs, revenue & sales metrics
+│   ├── time_trend_analysis.sql    # Monthly & YoY trend analysis
+│   ├── cumulative_analysis.sql    # Running totals & moving averages
+│   ├── segmentation_analysis.sql  # Customer & category segmentation
+│   └── product_performance.sql    # Product performance insights
 │
 └── README.md
 ```
 
-Each SQL script focuses on a specific analytical objective and demonstrates best practices for writing clean and efficient SQL queries.
+Each script represents a **real-world analytics task commonly performed by Data Analysts**.
 
 ---
 
-# 🔎 Key Analysis Performed
+# 🔎 Analyses Performed
 
-### 📌 Database Exploration
-
-* Understand database structure
-* Identify key tables and relationships
-* Explore available data fields
-
-### 📈 Measures & Metrics
-
-* Total sales
-* Average sales
-* Revenue calculations
-* KPI generation
-
-### ⏳ Time-Based Analysis
-
-* Monthly sales trends
-* Year-over-year performance
-* Seasonal patterns
-
-### 📊 Cumulative Analytics
-
-* Running totals
-* Moving averages
-* Growth analysis
-
-### 🎯 Data Segmentation
-
-* Customer segmentation
-* Product performance analysis
-* Category-based insights
+| # | Analysis                  | Description                                                 |
+| - | ------------------------- | ----------------------------------------------------------- |
+| 1 | **Database Exploration**  | Schema discovery, table relationships, and data profiling   |
+| 2 | **Measures & Metrics**    | Sales KPIs, revenue calculations, and business metrics      |
+| 3 | **Time-Based Trends**     | Monthly performance analysis and year-over-year comparisons |
+| 4 | **Cumulative Analytics**  | Running totals, moving averages, and growth tracking        |
+| 5 | **Segmentation Analysis** | Customer segmentation and category-level insights           |
+| 6 | **Product Performance**   | Identifying top and underperforming products                |
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🧠 SQL Concepts Demonstrated
 
-* **SQL Server (T-SQL)**
-* **SQL Server Management Studio (SSMS)**
-* **Microsoft Excel** (for exporting and visualization)
-* **Git & GitHub** for version control
+```sql id="ax64eh"
+-- Joins              → INNER JOIN, LEFT JOIN
+-- Aggregations       → SUM(), AVG(), COUNT(), MIN(), MAX()
+-- Window Functions   → LAG(), LEAD(), AVG() OVER(), SUM() OVER()
+-- Grouping           → GROUP BY, HAVING
+-- Filtering          → WHERE, BETWEEN, IN, CASE WHEN
+-- Query Design       → CTEs, Subqueries, Query Structuring
+-- Date Functions     → DATEPART(), DATETRUNC(), FORMAT()
+```
 
----
-
-# 📚 Skills Demonstrated
-
-This project highlights important **Data Analyst skills**, including:
-
-* SQL querying
-* Joins (INNER, LEFT)
-* Aggregations (`SUM`, `AVG`, `COUNT`)
-* Window functions (`LAG`, `LEAD`, `AVG OVER`)
-* Data cleaning
-* Business analytics thinking
-* Analytical problem solving
+These SQL techniques are commonly used in **data analytics, reporting, and business intelligence workflows**.
 
 ---
 
-# 🛡️ License
+# 🛠 Tools & Technologies
 
-This project is licensed under the **MIT License**.
-You are free to use, modify, and share this project with proper attribution.
-
----
-
-# 👨‍💻 About Me
-
-Hi! I'm **Akash Saha**, an **aspiring Data Analyst** passionate about turning raw data into meaningful insights.
-
-I am currently building projects using **SQL, Excel, and data analytics techniques** to strengthen my analytical and problem-solving skills.
-
-This repository is part of my journey to becoming a professional **Data Analyst**.
+| Tool                                    | Purpose                                     |
+| --------------------------------------- | ------------------------------------------- |
+| **SQL Server (T-SQL)**                  | Writing and executing analytical queries    |
+| **SQL Server Management Studio (SSMS)** | Database management and query testing       |
+| **Microsoft Excel**                     | Exporting and validating analytical results |
+| **Git & GitHub**                        | Version control and project documentation   |
 
 ---
 
-# 📬 Connect With Me
+# 💡 Skills Demonstrated
 
-Let's connect and grow in the data world!
+This project highlights key **Data Analyst competencies**, including:
 
-LinkedIN : https://www.linkedin.com/in/akashsaha-analyst/
+* Writing **clean, efficient SQL queries**
+* Translating **business questions into analytical queries**
+* Performing **exploratory data analysis**
+* Building **KPIs and business metrics**
+* Identifying **trends and patterns**
+* Applying **data segmentation techniques**
+* Structuring analytical workflows using SQL
 
 ---
 
-⭐ If you find this project helpful, feel free to **star the repository**!
+# 👨‍💻 About the Author
+
+**Akash Saha** — Aspiring Data Analyst with **4.5+ years of experience in fraud investigation, KYC compliance, and operational analytics** at **Amazon and Wipro**.
+
+Currently building **end-to-end analytics projects using SQL, Excel, and Power BI** to transition into a full-time **Data Analyst role**.
+
+🔗 Connect with me:
+
+* LinkedIn: https://www.linkedin.com/in/akashsaha-analyst/
+* GitHub: https://github.com/SahaAkash-Me
+
+---
+
+# 🛡 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute with proper attribution.
+
+---
+
+⭐ If you found this project useful, consider **starring the repository** to support the project.
